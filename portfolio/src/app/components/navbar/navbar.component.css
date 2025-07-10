@@ -1,0 +1,15 @@
+
+
+.img-box::before,.img-box::after{
+    animation: rotate-border 10s linear infinite;
+}
+
+.img-box::after{
+    animation-delay: -5s;
+}
+@keyframes rotate-border {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
